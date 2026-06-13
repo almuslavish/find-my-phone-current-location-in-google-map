@@ -57,6 +57,7 @@ function showError(error) {
         case error.PERMISSION_DENIED:
             el.innerHTML = "User denied the request for Geolocation.";
             break;
+            
         case error.POSITION_UNAVAILABLE:
             el.innerHTML = "Location information is unavailable.";
             break;
